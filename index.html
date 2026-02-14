@@ -14,8 +14,8 @@
         <form action = '' method = 'get'>
         
         
-        <fieldset>
-            <!-- DADOS PESSOAIS -->
+<!--         <fieldset>
+            DADOS PESSOAIS
             <legend>Dados Pessoais</legend>
             
             <label for = 'userName'>Digite seu nome:</label>
@@ -36,8 +36,20 @@
             <label for="userImage">Selecione uma imagem:</label>
             <input type="file" name="userImage" accept="image/*">
             <br>
+        </fieldset> -->
+        
+        <fieldset>
+        <legend>Perfil</legend>
+        <p>Gênero:</p>
+        <input type="radio" name="userGender" value="Feminino">
+        <label for="userGender">Feminino</label>
+        <input type="radio" name="userGender" value="Masculino">
+        <label for="userGender">Masculino</label>
+        <input type="radio" name="userGender" value="notInformed">
+        <label for="userGender">Prefiro não informar</label>
+
         </fieldset>
-            
+
         <button type="submit">Enviar</button>
 
         </form>
